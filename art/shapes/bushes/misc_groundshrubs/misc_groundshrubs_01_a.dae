@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Duion</author>
+      <authoring_tool>Blender 2.66.0 r54697</authoring_tool>
+    </contributor>
+    <created>2013-04-02T02:28:56</created>
+    <modified>2013-04-02T02:28:56</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_lights>
+    <light id="Hemi-light" name="Hemi">
+      <technique_common>
+        <ambient>
+          <color>1 1 1</color>
+        </ambient>
+      </technique_common>
+      <extra>
+        <technique profile="blender">
+          <adapt_thresh>0.000999987</adapt_thresh>
+          <area_shape>0</area_shape>
+          <area_size>0.1</area_size>
+          <area_sizey>0.1</area_sizey>
+          <area_sizez>0.1</area_sizez>
+          <atm_distance_factor>1</atm_distance_factor>
+          <atm_extinction_factor>1</atm_extinction_factor>
+          <atm_turbidity>2</atm_turbidity>
+          <att1>0</att1>
+          <att2>1</att2>
+          <backscattered_light>1</backscattered_light>
+          <bias>1</bias>
+          <blue>1</blue>
+          <buffers>1</buffers>
+          <bufflag>0</bufflag>
+          <bufsize>512</bufsize>
+          <buftype>2</buftype>
+          <clipend>40</clipend>
+          <clipsta>0.5</clipsta>
+          <compressthresh>0.04999995</compressthresh>
+          <dist sid="blender_dist">25</dist>
+          <energy sid="blender_energy">1</energy>
+          <falloff_type>2</falloff_type>
+          <filtertype>0</filtertype>
+          <flag>0</flag>
+          <gamma sid="blender_gamma">1</gamma>
+          <green>1</green>
+          <halo_intensity sid="blnder_halo_intensity">1</halo_intensity>
+          <horizon_brightness>1</horizon_brightness>
+          <mode>1</mode>
+          <ray_samp>1</ray_samp>
+          <ray_samp_method>1</ray_samp_method>
+          <ray_samp_type>0</ray_samp_type>
+          <ray_sampy>1</ray_sampy>
+          <ray_sampz>1</ray_sampz>
+          <red>1</red>
+          <samp>3</samp>
+          <shadhalostep>0</shadhalostep>
+          <shadow_b sid="blender_shadow_b">0</shadow_b>
+          <shadow_g sid="blender_shadow_g">0</shadow_g>
+          <shadow_r sid="blender_shadow_r">0</shadow_r>
+          <shadspotsize>45</shadspotsize>
+          <sky_colorspace>2</sky_colorspace>
+          <sky_exposure>1</sky_exposure>
+          <skyblendfac>1</skyblendfac>
+          <skyblendtype>1</skyblendtype>
+          <soft>3</soft>
+          <spotblend>0.15</spotblend>
+          <spotsize>45</spotsize>
+          <spread>1</spread>
+          <sun_brightness>1</sun_brightness>
+          <sun_effect_type>0</sun_effect_type>
+          <sun_intensity>1</sun_intensity>
+          <sun_size>1</sun_size>
+          <type>3</type>
+        </technique>
+      </extra>
+    </light>
+  </library_lights>
+  <library_images/>
+  <library_effects>
+    <effect id="misc_groundshrubs_01-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.64 0.64 0.64 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <transparency>
+              <float sid="transparency">0</float>
+            </transparency>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="misc_groundshrubs_01-material" name="misc_groundshrubs_01">
+      <instance_effect url="#misc_groundshrubs_01-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="shrubsa-mesh" name="shrubsa">
+      <mesh>
+        <source id="shrubsa-mesh-positions">
+          <float_array id="shrubsa-mesh-positions-array" count="114">1.82165 -1.542805 4.274694 0.1138828 -0.01274096 -0.1155257 0.4029476 0.5248146 3.069956 2.357567 -2.046884 3.073562 1.571783 -2.358839 1.417584 0.2893754 -1.345781 0.1051319 1.273932 -0.8949896 1.630139 0.03381121 0.01675635 -0.1415827 1.226933 -2.051633 3.500189 -0.2342408 -1.678556 2.664238 1.97317 -1.358651 3.023651 2.819611 -1.020987 2.725856 2.079421 0.5364282 1.398073 -2.308886 -2.284115 3.919641 -0.2833828 0.1067177 -0.1544762 -3.71507 -1.782394 2.668614 -4.12696 -2.167238 1.450833 0.3927143 -0.9302086 2.610806 -1.005695 1.256913 1.046964 -0.178097 0.08465486 -0.1177175 -1.956675 -1.58926 2.626421 -1.937971 0.6309268 2.16613 -1.780353 -3.176483 1.071917 -1.078955 -2.326831 -0.05774909 -0.2058219 -0.8262426 -0.3433433 -0.04312109 0.2422546 -0.1446276 -0.1126151 1.578534 3.534549 0.7422884 2.686116 2.362191 -0.09397608 0.6855624 3.735671 -0.523571 -0.9049958 3.262056 -0.3954178 -1.292901 1.897618 -2.215746 -0.05174052 0.7417476 -0.00566858 0.04727566 -0.1402707 -0.2836657 1.346946 4.40346 -2.438144 0.2743545 2.746334 2.482406 0.6501163 4.069362 2.412907 0.03746545 2.131594 1.13412 0.1096194 0.2606464</float_array>
+          <technique_common>
+            <accessor source="#shrubsa-mesh-positions-array" count="38" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="shrubsa-mesh-normals">
+          <float_array id="shrubsa-mesh-normals-array" count="81">0.8341513 0.5502265 -0.03797775 0.7496671 0.6380656 -0.1757028 0.712961 0.7007926 0.02400505 0.8586215 0.2404413 -0.4527219 0.7808203 0.2424795 -0.5757806 0.8372867 0.01978093 -0.5464062 0.3548777 -0.7582472 -0.5469213 0.07338887 -0.856678 -0.5106046 0.5880978 -0.5453256 -0.5972948 -0.007477462 -0.6508143 -0.7592002 0.252534 -0.8840698 -0.3932519 0.1007478 -0.8791283 -0.4658147 0.5335221 -0.841457 0.08546447 -0.7999711 -0.1153413 -0.5888487 -0.8957009 0.2563398 -0.3633314 -0.8682004 0.1440431 -0.474847 -0.7834839 0.06125938 -0.6183852 -0.8281961 0.4089642 -0.3831964 -0.9996758 -0.0232197 -0.01044893 -0.8633344 0.4688651 -0.1865991 -0.9829233 0.1809312 -0.03355276 -0.9362525 0.3048657 -0.1746088 -0.2461827 0.9277658 -0.2804365 0.1984357 0.9324511 -0.3019237 0.04320508 0.9612402 -0.2723059 -0.1123644 0.9787238 -0.1716795 0.3075567 0.9354598 -0.1741376</float_array>
+          <technique_common>
+            <accessor source="#shrubsa-mesh-normals-array" count="27" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="shrubsa-mesh-map-0">
+          <float_array id="shrubsa-mesh-map-0-array" count="162">0.5253906 0.7958984 0.6523438 1.010742 0.7763672 0.7333984 0.5253906 0.7958984 0.7763672 0.7333984 0.7490234 0.4970703 0.7763672 0.7333984 0.6523438 1.010742 0.8447266 0.9511719 0.7763672 0.7333984 0.8447266 0.9511719 0.9414063 0.7871094 0.7763672 0.7333984 0.9414063 0.7871094 0.8818359 0.5908203 0.7490234 0.4970703 0.7763672 0.7333984 0.8818359 0.5908203 0.8222656 0.5 0.6787109 0.4990234 0.7490234 -0.00390625 0.7490234 -0.00390625 0.6787109 0.4990234 0.5097656 0.3828125 0.9912109 0.2080078 0.8222656 0.5 0.7490234 -0.00390625 0.9863281 0.3916016 0.8222656 0.5 0.9912109 0.2080078 0.2480468 -0.00390625 0.4667969 0.1826171 0.3369141 0.4970703 0.2480468 -0.00390625 0.3369141 0.4970703 0.15625 0.4970703 0.15625 0.4970703 0.04296875 0.4199219 0.2480468 -0.00390625 0.2226562 0.9804688 0.004882812 0.8027344 0.25 0.4960938 0.2226562 0.9804688 0.4980469 0.7382813 0.5039063 0.9443359 0.25 0.4960938 0.3671875 0.5380859 0.2226562 0.9804688 0.25 0.4960938 0.004882812 0.8027344 0.02441406 0.5908203 0.2226562 0.9804688 0.3671875 0.5380859 0.4980469 0.7382813 0.8222656 0.5 0.6787109 0.4990234 0.7490234 -0.00390625 0.7490234 -0.00390625 0.6787109 0.4990234 0.5097656 0.3828125 0.9912109 0.2080078 0.8222656 0.5 0.7490234 -0.00390625 0.9863281 0.3916016 0.8222656 0.5 0.9912109 0.2080078 0.2226562 0.9804688 0.25 0.4960938 0.004882812 0.8027344 0.2226562 0.9804688 0.5039063 0.9443359 0.4980469 0.7382813 0.25 0.4960938 0.2226562 0.9804688 0.3671875 0.5380859 0.25 0.4960938 0.02441406 0.5908203 0.004882812 0.8027344 0.2226562 0.9804688 0.4980469 0.7382813 0.3671875 0.5380859</float_array>
+          <technique_common>
+            <accessor source="#shrubsa-mesh-map-0-array" count="81" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="shrubsa-mesh-colors">
+          <float_array id="shrubsa-mesh-colors-array" count="243">0.4980392 0.2941176 1 0.9960784 0.2941176 0 0.4980392 0.2941176 0 0.4980392 0.2941176 1 0.4980392 0.2941176 0 0 0.2941176 0 0.4980392 0.2941176 0 0.9960784 0.2941176 0 0.9960784 0.2941176 1 0.4980392 0.2941176 0 0.9960784 0.2941176 1 0.9960784 0.2941176 1 0.4980392 0.2941176 0 0.9960784 0.2941176 1 0.4980392 0.2941176 1 0 0.2941176 0 0.4980392 0.2941176 0 0.4980392 0.2941176 1 0.9960784 0.3921568 0 0.9960784 0.3921568 1 0 0.3921568 0 0 0.3921568 0 0.9960784 0.3921568 1 0.4980392 0.3921568 1 0.4980392 0.3921568 1 0.9960784 0.3921568 0 0 0.3921568 0 0.4980392 0.3921568 1 0.9960784 0.3921568 0 0.4980392 0.3921568 1 0 0.4901961 0 0.4980392 0.4901961 1 0.9960784 0.4901961 0 0 0.4901961 0 0.9960784 0.4901961 0 0.9960784 0.4901961 1 0.9960784 0.4901961 1 0.4980392 0.4901961 1 0 0.4901961 0 1 0.5882353 0 0.9960784 0.5882353 1 0 0.5882353 0 1 0.5882353 0 0.4980392 0.5882353 1 1 0.5882353 1 0 0.5882353 0 0 0.5882353 1 1 0.5882353 0 0 0.5882353 0 0.9960784 0.5882353 1 0.4980392 0.5882353 1 1 0.5882353 0 0 0.5882353 1 0.4980392 0.5882353 1 0.9960784 0.1960784 0 0.9960784 0.1960784 1 0 0.1960784 0 0 0.1960784 0 0.9960784 0.1960784 1 0.4980392 0.1960784 1 0.4980392 0.1960784 1 0.9960784 0.1960784 0 0 0.1960784 0 0.4980392 0.1960784 1 0.9960784 0.1960784 0 0.4980392 0.1960784 1 1 0.0980392 0 0 0.0980392 0 0.9960784 0.0980392 1 1 0.0980392 0 1 0.0980392 1 0.4980392 0.0980392 1 0 0.0980392 0 1 0.0980392 0 0 0.0980392 1 0 0.0980392 0 0.4980392 0.0980392 1 0.9960784 0.0980392 1 1 0.0980392 0 0.4980392 0.0980392 1 0 0.0980392 1</float_array>
+          <technique_common>
+            <accessor source="#shrubsa-mesh-colors-array" count="81" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="shrubsa-mesh-vertices">
+          <input semantic="POSITION" source="#shrubsa-mesh-positions"/>
+        </vertices>
+        <polylist material="misc_groundshrubs_01-material" count="27">
+          <input semantic="VERTEX" source="#shrubsa-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#shrubsa-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#shrubsa-mesh-map-0" offset="2" set="0"/>
+          <input semantic="COLOR" source="#shrubsa-mesh-colors" offset="3"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>2 0 0 0 0 0 1 1 6 0 2 2 2 1 3 3 6 1 4 4 1 1 5 5 6 2 6 6 0 2 7 7 3 2 8 8 6 3 9 9 3 3 10 10 4 3 11 11 6 4 12 12 4 4 13 13 5 4 14 14 1 5 15 15 6 5 16 16 5 5 17 17 10 6 18 18 8 6 19 19 7 6 20 20 7 7 21 21 8 7 22 22 9 7 23 23 12 8 24 24 10 8 25 25 7 8 26 26 11 9 27 27 10 9 28 28 12 9 29 29 14 10 30 30 17 10 31 31 13 10 32 32 14 11 33 33 13 11 34 34 15 11 35 35 15 12 36 36 16 12 37 37 14 12 38 38 20 13 39 39 21 13 40 40 19 13 41 41 20 14 42 42 23 14 43 43 22 14 44 44 19 15 45 45 24 15 46 46 20 15 47 47 19 16 48 48 21 16 49 49 18 16 50 50 20 17 51 51 24 17 52 52 23 17 53 53 28 18 54 54 26 18 55 55 25 18 56 56 25 19 57 57 26 19 58 58 27 19 59 59 30 20 60 60 28 20 61 61 25 20 62 62 29 21 63 63 28 21 64 64 30 21 65 65 33 22 66 66 32 22 67 67 34 22 68 68 33 23 69 69 35 23 70 70 36 23 71 71 32 24 72 72 33 24 73 73 37 24 74 74 32 25 75 75 31 25 76 76 34 25 77 77 33 26 78 78 36 26 79 79 37 26 80 80</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Hemi" name="Hemi" type="NODE">
+        <matrix sid="transform">1 0 0 13.62831 0 1 0 5.58176 0 0 1 -7.251319 0 0 0 1</matrix>
+        <instance_light url="#Hemi-light"/>
+      </node>
+      <node id="shrubsa" name="shrubsa" type="NODE">
+        <matrix sid="transform">0.1897081 0 0 0 0 0.1897081 0 0 0 0 0.1897081 0 0 0 0 1</matrix>
+        <instance_geometry url="#shrubsa-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="misc_groundshrubs_01-material" target="#misc_groundshrubs_01-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

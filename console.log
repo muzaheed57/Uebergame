@@ -1,0 +1,280 @@
+//-------------------------- 4/13/2013 -- 23:44:32 -----
+Processor Init:
+   Intel Core 2, ~2.39 Ghz
+   FPU detected
+   MMX detected
+   SSE detected
+   SSE2 detected
+   MP detected [2 cores, 2 logical, 1 physical]
+ 
+Math Init:
+   Installing Standard C extensions
+   Installing Assembly extensions
+   Installing FPU extensions
+   Installing MMX extensions
+   Installing SSE extensions
+ 
+Initializing platform...
+Input Init:
+   keyboard0 input device created.
+   mouse0 input device created.
+   DirectInput enabled.
+
+Done
+SFXALProvider - OpenAL not available.
+GFX Init:
+   Direct 3D (version 9.x) device found
+   Null device found
+
+DebugDrawer Enabled!
+--------- Loading DIRS ---------
+
+--------- Parsing Arguments ---------
+Binding server port to default IP
+UDP initialized on port 0
+Attempting to create GFX device: NVIDIA GeForce GT 610 (D3D9)
+Device created, setting adapter and enumerating modes
+   Cur. D3DDevice ref count=1
+   Pix version detected: 3.000000
+   Vert version detected: 3.000000
+   Maximum number of simultaneous samplers: 16
+   Number of simultaneous render targets: 4
+   Hardware occlusion query detected: Yes
+   Using Direct3D9Ex: No
+WMIVideoInfo: DxDiag initialized
+Initializing GFXCardProfiler (D3D9)
+   o Chipset : 'GeForce GT 610'
+   o Card    : 'GeForce GT 610'
+   o Version : '6.14.0013.0142'
+   - Scanning card capabilities...
+GFXCardProfiler (D3D9) - Setting capability 'autoMipMapLevel' to 1.
+GFXCardProfiler (D3D9) - Setting capability 'maxTextureWidth' to 8192.
+GFXCardProfiler (D3D9) - Setting capability 'maxTextureHeight' to 8192.
+GFXCardProfiler (D3D9) - Setting capability 'maxTextureSize' to 8192.
+GFXCardProfiler (D3D9) - Setting capability 'lerpDetailBlend' to 1.
+GFXCardProfiler (D3D9) - Setting capability 'fourStageDetailBlend' to 1.
+   - Loading card profiles...
+      - Loaded card profile core/profile/D3D9.cs
+      - No card profile core/profile/D3D9.GeForceGT610.cs exists
+      - No card profile core/profile/D3D9.GeForceGT610.GeForceGT610.cs exists
+      - No card profile core/profile/D3D9.GeForceGT610.GeForceGT610.61400130142.cs exists
+% - PostFX Manager - Executing core/scripts/client/postFx/default.postfxpreset.cs
+% - PostFX Manager - Applying from preset
+% - PostFX Manager - PostFX enabled
+Missing file: core/art/gui/customProfiles.cs!
+ % - Initialized Core
+
+--------- Initializing Directory: scripts ---------
+sfxStartup...
+SFXSystem::createDevice - created DirectSound device 'Realtek HD Audio output'
+SFXDSDevice::setDistanceModel - 'linear' distance attenuation not supported by DirectSound
+   Provider: DirectSound
+   Device: Realtek HD Audio output
+   Hardware: No
+   Buffers: 16
+
+--------- Initializing Uebergame: Server Scripts ---------
+
+--------- Initializing Uebergame: Client Scripts ---------
+
+--------- Initializing Lighting Systems ---------
+Using Advanced Lighting
+
+
+--------------
+Attempting to set resolution to "1280 720 false 32 60 2"
+Accepted Mode: 
+--Resolution : 1280 720
+--Full Screen : No
+--Bits Per Pixel : 32
+--Refresh Rate : 60
+--FSAA Level : 2
+--------------
+GFXPCD3D9Device::reset - depthstencil 192ec0 has 2 ref's
+--- Resetting D3D Device ---
+GFXPCD3D9Device::reset - depthstencil 192ec0 has 2 ref's
+--- Resetting D3D Device ---
+art/shapes/weapons/SwarmGun/materials.cs (23): Cannot re-declare object [w_swarmgun].
+Binding server port to default IP
+UDP initialized on port 0
+ % - Initializing Tools
+ % - Initializing Tools Base
+ % - Initializing Base Editor
+ % - Initializing World Editor
+ % - Initializing Sketch Tool
+ - Initializing Datablock Editor
+ % - Initializing Debugger
+ % - Initializing Decal Editor
+ % - Initializing Forest Editor
+ % - Initializing Gui Editor
+ % - Initializing Material Editor
+ % - Initializing Mesh Road Editor
+ % - Initializing Mission Area Editor
+ % - Initializing Particle Editor
+ % - Initializing Physics Tools
+No physics plugin exists.
+ % - Initializing River Editor
+ - Initializing Road and Path Editor
+ % - Initializing Shape Editor
+Engine initialized...
+AntiAliasing has been disabled; it is not compatible with AdvancedLighting.
+Window focus status changed: focus: 1
+Exporting server prefs...
+ParticleData - TeleporterFlash(24) - invalid value for dragCoefficient: Must be between 0 and 5
+Resource<TSShape>::create - Could not open 'art/shapes/rocks/boulder.dts'
+Failed to create resource: [art/shapes/rocks/boulder.dts]
+art/datablocks/rigidShape.cs (0): preload failed for BouncingBoulder: ShapeBaseData: Couldn't load shape "art/shapes/rocks/boulder.dts".
+ParticleData(GLWaterExpDust) times[2] < times[1]
+ParticleData(RLWaterExpDust) times[2] < times[1]
+ParticleData - RocketLauncherfiring1Particle(194) - invalid value for dragCoefficient: Must be between 0 and 5
+ParticleData - RocketLauncherfiring2Particle(196) - invalid value for dragCoefficient: Must be between 0 and 5
+Warning: shape art/shapes/weapons/Turret/Turret_Legs.DAE collision detail 0 (Collision-1) bounds exceed that of shape.
+Warning: shape art/shapes/weapons/Turret/Turret_Legs.DAE collision detail 0 (Collision-1) bounds exceed that of shape.
+Warning: shape art/shapes/weapons/Turret/Turret_Legs.DAE collision detail 0 (Collision-1) bounds exceed that of shape.
+ParticleData(LightPuff) times[2] < times[1]
+SFXProfile(CheetahTurretFireSound)::onAdd: The preload failed!
+TSShape::removeNode: Node 'collision-1' has 1 objects attached, these will be reassigned to the node's parent ('null')
+TSShape::removeNode: Node 'Cheetah_Turret_LOD300' has 1 objects attached, these will be reassigned to the node's parent ('null')
+TSShapeConstructor::removeNode: Could not find node 'EnvironmentAmbientLight'
+TSShape::removeNode: Node 'Tread_LOD300' has 1 objects attached, these will be reassigned to the node's parent ('null')
+TSShape::removeNode: Node 'collision-1' has 1 objects attached, these will be reassigned to the node's parent ('null')
+TSShape::removeNode: Node 'TireBack_LOD300' has 1 objects attached, these will be reassigned to the node's parent ('null')
+TSShape::removeNode: Node 'collision-1' has 1 objects attached, these will be reassigned to the node's parent ('null')
+TSShapeConstructor::removeNode: Could not find node 'collision-1'
+TSShapeConstructor::removeNode: Could not find node 'collision-5'
+TSShapeConstructor::removeNode: Could not find node 'collision-4'
+TSShapeConstructor::removeNode: Could not find node 'collision-3'
+TSShapeConstructor::removeNode: Could not find node 'collision-2'
+*** LOADING MISSION: levels/duion/riverside_promenade/riverside_promenade.mis
+*** Stage 1 load
+*** Stage 2 load
+[MaterialList::mapMaterials] Unable to find material for texture: grass_sparse_mossy_base
+[MaterialList::mapMaterials] Unable to find material for texture: soil_rough_base
+[MaterialList::mapMaterials] Unable to find material for texture: gravel_ground_colorful_base
+[MaterialList::mapMaterials] Unable to find material for texture: grass_sparse_mossy_base
+[MaterialList::mapMaterials] Unable to find material for texture: soil_gravel_base
+[MaterialList::mapMaterials] Unable to find material for texture: soil_bigstones_base
+[MaterialList::mapMaterials] Unable to find material for texture: soil_rough_base
+[MaterialList::mapMaterials] Unable to find material for texture: rock_brown_cracks_base
+TSShape::removeImposter: No imposter detail level found in shape
+TSShape::setDetailSize: Cannot find detail with size 16
+[Material::mapMaterial] - Cannot map unnamed Material
+[Material::mapMaterial] - Cannot map unnamed Material
+[Material::mapMaterial] - Cannot map unnamed Material
+[Material::mapMaterial] - Cannot map unnamed Material
+[Material::mapMaterial] - Cannot map unnamed Material
+[Material::mapMaterial] - Cannot map unnamed Material
+[Material::mapMaterial] - Cannot map unnamed Material
+[Material::mapMaterial] - Cannot map unnamed Material
+[Material::mapMaterial] - Cannot map unnamed Material
+Game -> activatePackages
+*** Mission loaded
+Connect request from: 
+Connection established 4551
+CADD: 4552 local
+*** Sending mission load to client: levels/duion/riverside_promenade/riverside_promenade.mis
+Mapping string: ServerMessage to index: 0
+Mapping string: MsgConnectionError to index: 1
+Mapping string: MsgLoadInfo to index: 2
+Mapping string: MsgLoadDescripition to index: 3
+Mapping string: MsgLoadInfoDone to index: 4
+Mapping string: MissionStartPhase1 to index: 5
+*** New Mission: levels/duion/riverside_promenade/riverside_promenade.mis
+*** Phase 1: Download Datablocks & Targets
+% - PostFX Manager - Executing levels/riverside_promenade.postfxpreset.cs
+% - PostFX Manager - Applying from preset
+HDR FORMAT: GFXFormatR10G10B10A2
+Using Advanced Lighting
+% - PostFX Manager - PostFX enabled
+Mapping string: MissionStartPhase1Ack to index: 0
+DecalData::unpackUpdate, failed to find Material of name DECAL_scorch!
+Warning: shape art/shapes/weapons/Turret/Turret_Legs.DAE collision detail 1 (Collision-1) bounds exceed that of shape.
+Warning: shape art/shapes/weapons/Turret/Turret_Legs.DAE collision detail 1 (Collision-1) bounds exceed that of shape.
+Warning: shape art/shapes/weapons/Turret/Turret_Legs.DAE collision detail 1 (Collision-1) bounds exceed that of shape.
+[MaterialList::mapMaterials] Unable to find material for texture: base.lmale
+Material - Cheetah_MuzzleFlash(2005) - Failed to load diffuse map art/shapes/Cheetah/Cheetah_MuzzleFlash_D for stage 0
+Material - Cheetah_Main(2003) - Failed to load diffuse map art/shapes/Cheetah/Cheetah_D for stage 0
+Material - Cheetah_Main(2003) - Failed to load normal map art/shapes/Cheetah/Cheetah_N for stage 0
+Material - Cheetah_Main(2003) - Failed to load specular map art/shapes/Cheetah/Cheetah_S for stage 0
+Mapping string: MissionStartPhase2 to index: 6
+*** Phase 2: Download Ghost Objects
+Mapping string: MissionStartPhase2Ack to index: 1
+[MaterialList::mapMaterials] Unable to find material for texture: invisible_wall_01
+[Material::mapMaterial] - Cannot map unnamed Material
+d:/Torque3D/My Projects/Uebergame/game/shaders/procedural/632b5031898a125e_V.hlsl(48,35): warning X3206: 'mul': implicit truncation of vector type
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+Ghost Always objects received.
+Mapping string: MissionStartPhase3 to index: 7
+Client Replication Startup has Happened!
+fxFoliageReplicator - replicated client foliage for 0 objects
+*** Phase 3: Mission Lighting
+Mission lighting done
+Mapping string: MissionStartPhase3Ack to index: 2
+Mapping string: MissionStart to index: 8
+Mapping string: SyncClock to index: 9
+Mapping string: RefreshWeaponHud to index: 10
+Mapping string: SetAmmoAmountHud to index: 11
+Mapping string: lurker.png to index: 12
+Mapping string: MsgClientJoin to index: 13
+Mapping string: Welcome to the Torque demo app %1. to index: 14
+Mapping string: Visitor to index: 15
+*** Initial Control Object
+Activating DirectInput...
+*** Control Object Changed
+Mapping string: Red to index: 16
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/lightRay/lightRayOccludeP.hlsl(48,16): warning X3206: 'dot': implicit truncation of vector type
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/lightRay/lightRayP.hlsl(62,19): warning X3205: conversion from larger type to smaller, possible loss of data
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/lightRay/lightRayP.hlsl(74,16): warning X3205: conversion from larger type to smaller, possible loss of data
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/lightRay/lightRayP.hlsl(80,27): warning X3205: conversion from larger type to smaller, possible loss of data
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/dof/DOF_DownSample_P.hlsl(72,10): warning X3205: conversion from larger type to smaller, possible loss of data
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/dof/DOF_DownSample_P.hlsl(73,10): warning X3205: conversion from larger type to smaller, possible loss of data
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/dof/DOF_DownSample_P.hlsl(74,10): warning X3205: conversion from larger type to smaller, possible loss of data
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/dof/DOF_DownSample_P.hlsl(75,10): warning X3205: conversion from larger type to smaller, possible loss of data
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/dof/DOF_DownSample_P.hlsl(84,18): warning X3206: 'autogenUncondition_55070f7a': implicit truncation of vector type
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/dof/DOF_DownSample_P.hlsl(85,18): warning X3206: 'autogenUncondition_55070f7a': implicit truncation of vector type
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/dof/DOF_DownSample_P.hlsl(86,18): warning X3206: 'autogenUncondition_55070f7a': implicit truncation of vector type
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/dof/DOF_DownSample_P.hlsl(87,18): warning X3206: 'autogenUncondition_55070f7a': implicit truncation of vector type
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/dof/DOF_DownSample_P.hlsl(88,14): warning X3205: conversion from larger type to smaller, possible loss of data
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/dof/DOF_DownSample_P.hlsl(88,14): warning X3206: implicit truncation of vector type
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/dof/DOF_DownSample_P.hlsl(88,11): warning X3550: array reference cannot be used as an l-value; not natively addressable, forcing loop to unroll
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/dof/DOF_CalcCoC_P.hlsl(39,11): warning X3205: conversion from larger type to smaller, possible loss of data
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/dof/DOF_CalcCoC_P.hlsl(40,12): warning X3205: conversion from larger type to smaller, possible loss of data
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/dof/DOF_Final_P.hlsl(54,8): warning X3205: conversion from larger type to smaller, possible loss of data
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/dof/DOF_Final_P.hlsl(55,8): warning X3205: conversion from larger type to smaller, possible loss of data
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/dof/DOF_Final_P.hlsl(56,8): warning X3205: conversion from larger type to smaller, possible loss of data
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/dof/DOF_Final_P.hlsl(57,8): warning X3205: conversion from larger type to smaller, possible loss of data
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/dof/DOF_Final_P.hlsl(75,12): warning X3205: conversion from larger type to smaller, possible loss of data
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/dof/DOF_Final_P.hlsl(103,8): warning X3205: conversion from larger type to smaller, possible loss of data
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/dof/DOF_Final_P.hlsl(106,10): warning X3205: conversion from larger type to smaller, possible loss of data
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/dof/DOF_Final_P.hlsl(117,12): warning X3206: 'autogenUncondition_55070f7a': implicit truncation of vector type
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/dof/DOF_Final_P.hlsl(117,10): warning X3205: conversion from larger type to smaller, possible loss of data
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/dof/DOF_Final_P.hlsl(131,14): warning X3205: conversion from larger type to smaller, possible loss of data
+d:/Torque3D/My Projects/Uebergame/game/shaders/common/postFx/dof/DOF_Final_P.hlsl(132,11): warning X3205: conversion from larger type to smaller, possible loss of data
+Window focus status changed: focus: 1
+Mapping string: Sprint to index: 17
+Mapping string: Stand to index: 18
+Mapping string: Crouch to index: 19
+Warning, overwriting material for: matEd_mappedMat
+Win32Window::WindowProc - resetting device due to window size change.
+GFXPCD3D9Device::reset - depthstencil 198b80 has 3 ref's
+--- Resetting D3D Device ---
+Time spent in toggleEditor() : 16.823 s
+Mapping string: EditorOrbitCameraSelectChange to index: 3
+Mapping string: SetEditorCameraPlayer to index: 4
+Window focus status changed: focus: 0
+  Using background sleep time: 200
+DirectInput deactivated.
+Activating DirectInput...
+Window focus status changed: focus: 1
+Set::remove: Object "4807" does not exist in set
+Win32Window::WindowProc - resetting device due to window size change.
+GFXPCD3D9Device::reset - depthstencil 146dcf80 has 3 ref's
+--- Resetting D3D Device ---
+*** ENDING MISSION
+4550 -> deactivatePackages
+CDROP: 4552 
+Exporting server prefs...
+Exporting client prefs
+Exporting server prefs
+Cur. D3DDevice ref count=1

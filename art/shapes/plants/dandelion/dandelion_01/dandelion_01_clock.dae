@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.65.0 r53189</authoring_tool>
+    </contributor>
+    <created>2013-02-09T22:25:50</created>
+    <modified>2013-02-09T22:25:50</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_lights>
+    <light id="Hemi-light" name="Hemi">
+      <technique_common>
+        <ambient>
+          <color>1 1 1</color>
+        </ambient>
+      </technique_common>
+      <extra>
+        <technique profile="blender">
+          <adapt_thresh>0.000999987</adapt_thresh>
+          <area_shape>0</area_shape>
+          <area_size>1</area_size>
+          <area_sizey>1</area_sizey>
+          <area_sizez>1</area_sizez>
+          <atm_distance_factor>1</atm_distance_factor>
+          <atm_extinction_factor>1</atm_extinction_factor>
+          <atm_turbidity>2</atm_turbidity>
+          <att1>0</att1>
+          <att2>1</att2>
+          <backscattered_light>1</backscattered_light>
+          <bias>1</bias>
+          <blue>1</blue>
+          <buffers>1</buffers>
+          <bufflag>0</bufflag>
+          <bufsize>512</bufsize>
+          <buftype>2</buftype>
+          <clipend>40</clipend>
+          <clipsta>0.5</clipsta>
+          <compressthresh>0.04999995</compressthresh>
+          <dist sid="blender_dist">25</dist>
+          <energy sid="blender_energy">1</energy>
+          <falloff_type>2</falloff_type>
+          <filtertype>0</filtertype>
+          <flag>0</flag>
+          <gamma sid="blender_gamma">1</gamma>
+          <green>1</green>
+          <halo_intensity sid="blnder_halo_intensity">1</halo_intensity>
+          <horizon_brightness>1</horizon_brightness>
+          <mode>1</mode>
+          <ray_samp>1</ray_samp>
+          <ray_samp_method>1</ray_samp_method>
+          <ray_samp_type>0</ray_samp_type>
+          <ray_sampy>1</ray_sampy>
+          <ray_sampz>1</ray_sampz>
+          <red>1</red>
+          <samp>3</samp>
+          <shadhalostep>0</shadhalostep>
+          <shadow_b sid="blender_shadow_b">0</shadow_b>
+          <shadow_g sid="blender_shadow_g">0</shadow_g>
+          <shadow_r sid="blender_shadow_r">0</shadow_r>
+          <shadspotsize>45</shadspotsize>
+          <sky_colorspace>2</sky_colorspace>
+          <sky_exposure>1</sky_exposure>
+          <skyblendfac>1</skyblendfac>
+          <skyblendtype>1</skyblendtype>
+          <soft>3</soft>
+          <spotblend>0.15</spotblend>
+          <spotsize>45</spotsize>
+          <spread>1</spread>
+          <sun_brightness>1</sun_brightness>
+          <sun_effect_type>0</sun_effect_type>
+          <sun_intensity>1</sun_intensity>
+          <sun_size>1</sun_size>
+          <type>3</type>
+        </technique>
+      </extra>
+    </light>
+  </library_lights>
+  <library_images/>
+  <library_effects>
+    <effect id="dandelion_lp_01-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.8 0.8 0.8 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <transparency>
+              <float sid="transparency">0</float>
+            </transparency>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="dandelion_lp_01-material" name="dandelion_lp_01">
+      <instance_effect url="#dandelion_lp_01-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="dandelion_clock8-mesh" name="dandelion_clock8">
+      <mesh>
+        <source id="dandelion_clock8-mesh-positions">
+          <float_array id="dandelion_clock8-mesh-positions-array" count="57">0.3555303 -0.5746669 1.529035 -0.3684903 -0.5066416 1.540468 0.4245998 0.146036 1.585509 -0.2994209 0.2140614 1.596943 0.3283917 -0.02267992 -0.001756966 0.3481726 -0.2101261 1.555809 -0.3118981 0.03747797 0.008354067 -0.2921171 -0.1499682 1.56592 -0.02229404 -0.3112788 -0.02167308 -0.00251311 -0.4987251 1.535893 0.03878766 0.3260769 0.02827036 0.05856859 0.1386308 1.585837 0.01783341 -1.752559 0.8721172 1.484842 -0.9281179 0.5726409 1.530876 0.796061 0.8921239 -1.701964 -1.07914 0.3689495 0 0 0 -1.616328 0.9070324 0.9526094 0.04536974 1.751806 0.5611033</float_array>
+          <technique_common>
+            <accessor source="#dandelion_clock8-mesh-positions-array" count="19" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dandelion_clock8-mesh-normals">
+          <float_array id="dandelion_clock8-mesh-normals-array" count="27">0.008327543 -0.07891136 0.9968468 0.0947346 0.9885131 0.11776 0.995331 -0.09351634 -0.02389484 -0.4371839 -0.1525621 0.8863379 -0.06709432 0.4439607 0.8935308 -0.3738133 -0.2741265 0.886069 0.3679049 -0.2767326 0.8877303 0.357935 -0.2932201 0.8865125 -0.08753353 0.4430877 0.8921946</float_array>
+          <technique_common>
+            <accessor source="#dandelion_clock8-mesh-normals-array" count="9" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dandelion_clock8-mesh-map-0">
+          <float_array id="dandelion_clock8-mesh-map-0-array" count="60">0.004385888 0.7979543 0.1967055 0.7979543 0.1967055 1.001743 0.004385888 1.001743 0.6123422 1.000749 0.1173603 0.9974484 0.1180298 0.8014439 0.6146437 0.7965816 0.612347 0.9987493 0.1173651 0.9970868 0.1180313 0.8008439 0.6146451 0.7959816 0.7229437 0.2129411 0.6993187 0.5184696 0.4142902 0.4004554 0.7229437 0.2129411 0.4142902 0.4004554 0.5503402 -0.01579809 0.4142902 0.4004554 0.6993187 0.5184696 0.4300402 0.8156089 0.04792904 -5.64675e-4 0.4142902 0.4004554 -0.009813249 0.6476446 0.4142902 0.4004554 0.4300402 0.8156089 -0.009813249 0.6476446 0.5503402 -0.01579809 0.4142902 0.4004554 0.04792904 -5.64675e-4</float_array>
+          <technique_common>
+            <accessor source="#dandelion_clock8-mesh-map-0-array" count="30" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dandelion_clock8-mesh-colors">
+          <float_array id="dandelion_clock8-mesh-colors-array" count="90">1 0 1 1 0 1 1 0 1 1 0 1 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 1 0.5333334 1 1 0.8470588 1 0 0 0 1 0.5333334 1 0 0 0 0.9137255 0.8705883 1 0 0 0 1 0.8470588 1 1 0.2941176 1 1 0.2980392 1 0 0 0 1 1 1 0 0 0 1 0.2941176 1 1 1 1 0.9137255 0.8705883 1 0 0 0 1 0.2980392 1</float_array>
+          <technique_common>
+            <accessor source="#dandelion_clock8-mesh-colors-array" count="30" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="dandelion_clock8-mesh-vertices">
+          <input semantic="POSITION" source="#dandelion_clock8-mesh-positions"/>
+        </vertices>
+        <polylist material="dandelion_lp_01-material" count="9">
+          <input semantic="VERTEX" source="#dandelion_clock8-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#dandelion_clock8-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#dandelion_clock8-mesh-map-0" offset="2" set="0"/>
+          <input semantic="COLOR" source="#dandelion_clock8-mesh-colors" offset="3"/>
+          <vcount>4 4 4 3 3 3 3 3 3 </vcount>
+          <p>1 0 0 0 0 0 1 1 2 0 2 2 3 0 3 3 6 1 4 4 7 1 5 5 5 1 6 6 4 1 7 7 10 2 8 8 11 2 9 9 9 2 10 10 8 2 11 11 13 3 12 12 14 3 13 13 16 3 14 14 13 4 15 15 16 4 16 16 12 4 17 17 16 5 18 18 14 5 19 19 18 5 20 20 15 6 21 21 16 6 22 22 17 6 23 23 16 7 24 24 18 7 25 25 17 7 26 26 12 8 27 27 16 8 28 28 15 8 29 29</p>
+        </polylist>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Hemi" name="Hemi" type="NODE">
+        <translate sid="location">2.088037 5.671898 1.198624</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_light url="#Hemi-light"/>
+      </node>
+      <node id="base01" name="base01" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <node id="detail8" name="detail8" type="NODE">
+          <translate sid="location">0 0 0</translate>
+          <rotate sid="rotationZ">0 0 1 0</rotate>
+          <rotate sid="rotationY">0 1 0 0</rotate>
+          <rotate sid="rotationX">1 0 0 0</rotate>
+          <scale sid="scale">1 1 1</scale>
+        </node>
+        <node id="nulldetail0" name="nulldetail0" type="NODE">
+          <translate sid="location">0 0 0</translate>
+          <rotate sid="rotationZ">0 0 1 0</rotate>
+          <rotate sid="rotationY">0 1 0 0</rotate>
+          <rotate sid="rotationX">1 0 0 0</rotate>
+          <scale sid="scale">1 1 1</scale>
+        </node>
+        <node id="start01" name="start01" type="NODE">
+          <translate sid="location">0 0 0</translate>
+          <rotate sid="rotationZ">0 0 1 0</rotate>
+          <rotate sid="rotationY">0 1 0 0</rotate>
+          <rotate sid="rotationX">1 0 0 0</rotate>
+          <scale sid="scale">1 1 1</scale>
+          <node id="dandelion_clock8" name="dandelion_clock8" type="NODE">
+            <translate sid="location">0 0 0</translate>
+            <rotate sid="rotationZ">0 0 1 0</rotate>
+            <rotate sid="rotationY">0 1 0 0</rotate>
+            <rotate sid="rotationX">1 0 0 0</rotate>
+            <scale sid="scale">0.07518943 0.07518943 0.07518943</scale>
+            <instance_geometry url="#dandelion_clock8-mesh">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="dandelion_lp_01-material" target="#dandelion_lp_01-material">
+                    <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
